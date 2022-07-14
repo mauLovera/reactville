@@ -15,6 +15,7 @@ const App = () => {
   const handleExchange = (amt) => {
     if (cash - amt > 0) setCash((cash - amt).toFixed(2))
   }
+  // not incredibly proud of waiting till the last moment to start knocking this stuff out - Really cool lab i love the styling ! 
 
   return (
     <>
